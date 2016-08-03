@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省市区联动选择插件</title>
+    <script src="../lib/jquery-1.11.3.min.js"></script>
+    <script src="../src/areaData.js"></script>
+    <script src="../src/jquery.citypicker.js"></script>
+    <script>
+        $(function(){
+            new CityPicker().init();
+        });
+    </script>
+</head>
+<body>
+    <select name="province" id="province" data-province="北京"></select>
+    <select name="city" id="city" data-city="北京"></select>
+    <select name="district" id="district" data-district="朝阳区"></select>
+</body>
+</html>
