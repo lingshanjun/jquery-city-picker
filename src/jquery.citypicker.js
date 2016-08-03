@@ -36,25 +36,6 @@
                 self.$province.append(option);
             });
 
-            /*$.each(self.citys, function(i, item){
-                for (var key in item){
-                    if (key == 'cidx') {
-                        console.log(i, item.name, item.id);
-                        return;
-                    }
-                }
-                console.log('none', i, item.name, item.id);
-            });*/
-            /*$.each(self.provinces, function(i, item){
-                for (var key in item){
-                    if (key == 'cidx') {
-                        console.log(i);
-                        return;
-                    }
-                }
-                console.log('none', i, item.name, item.id);
-            });*/
-
             self.event();
             self.$province.change();
             self.$city.change();
