@@ -1,0 +1,24 @@
+{
+  "name": "jquery-city-picker",
+  "version": "1.0.0",
+  "description": "a jquery plugin,to use select the province, city and district datas of china. The datas are from Tencent WebService Api.",
+  "main": "src/jquery.citypicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingshanjun/jquery-city-picker.git"
+  },
+  "author": "lingshanjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lingshanjun/jquery-city-picker/issues"
+  },
+  "homepage": "https://github.com/lingshanjun/jquery-city-picker#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
