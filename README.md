@@ -14,13 +14,9 @@
     
     注意：为保证正常加载插件数据，需在dom加载完成后实例化对象，即在`$(document).ready()`内实例化对象。
 3. html的代码片段如下所示：
-    `
-    <select name="province" id="province" data-province="北京"></select>
-    `
-    `<select name="city" id="city" data-city="北京"></select>
-    `
-    `<select name="district" id="district" data-district="朝阳区"></select>
-    `
+    - `<select name="province" id="province" data-province="北京"></select>`
+    - `<select name="city" id="city" data-city="北京"></select>`
+    - `<select name="district" id="district" data-district="朝阳区"></select>`
     
     注意：
     1. 此插件只针对`select`标签和其`option`标签有效，请不要用于其他的HTML标签中。
