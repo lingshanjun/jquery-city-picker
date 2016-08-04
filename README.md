@@ -1,5 +1,5 @@
 # jquery-city-picker
-一个省市区的联动选择插件，基于jquery+腾讯api行政区划接口数据
+一个省市区的联动选择插件，基于jquery+腾讯api行政区划接口数据 [演示demo](https://lingshanjun.github.io/jquery-city-picker/)
 ### Use
 1. 在浏览器端依次引入如下三个文件：
     - `<script src="path/to/jquery-1.11.3.min.js"></script>`

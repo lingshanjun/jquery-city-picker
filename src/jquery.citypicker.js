@@ -69,7 +69,14 @@
 
                 cidx = cidx.split(',');
                 var citys = self.citys.slice(parseInt(cidx[0]), parseInt(cidx[1])+1);
+
+                var repeatIds = ['659091', '659092', '659093', '659094', '659095', '659096', '659097', '659098'];
+
                 $.each(citys, function(i, item){
+                    if ($.inArray(item.id, repeatIds) != -1) {
+                        return false;
+                    }
+
                     var selected = (self.initCity && self.initCity === item.name)? 'selected' : '';
                     var option = '<option value="'+ item.name +'" data-cidx="'+ item.cidx +'" '+selected+'>'+ item.name +'</option>';
                     self.$city.append(option);
